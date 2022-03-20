@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="./styles/home.css">
         <link rel="stylesheet" href="./styles/carousel.css">
         <link rel="stylesheet" href="./js/carousel.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
     <body>
         <section id="head-gov">
@@ -59,7 +60,12 @@
         <section id="head-menu">
             <ul class="navbar-menu">
                 <li><a href="#">INÍCIO</a></li>
-                <li><a>INSTITUCIONAL</a>
+                <li>
+                    <a>
+                        INSTITUCIONA
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                     
                     <ul class="navbar-submenu">
                         <li><a>SOBRE A JUCEA</a></li>
                         <li><a>ESTRUTURA ORGANIZACIONAL</a></li>
@@ -72,7 +78,10 @@
                         <li><a>REDE SIM DIGITAL</a></li>
                     </ul>
                 </li>
-                <li><a>SERVIÇOS</a>
+                <li><a>
+                        SERVIÇOS
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
                     <ul class="navbar-submenu">
                         <li><a>TABELA DE PREÇOS</a></li>
                         <li><a>LINKS E SERVIÇOS</a></li>
@@ -81,7 +90,10 @@
                         <li><a>MANUAIS</a></li>
                     </ul>
                 </li>          
-                <li><a>COMUNIÇÃO</a>
+                <li><a>
+                        COMUNIÇÃO
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
                     <ul class="navbar-submenu">
                         <li><a>NOTÍCIAS</a></li>
                         <li><a>JUNTAS COMERCIAIS</a></li>
@@ -97,7 +109,7 @@
             </ul>
         </section>
 
-        <!--BODY PRINCIPAL-->
+        <!--carousel + imgs-->
         <section id="content-main">
             <!--widget slider start-->
             <div class="carousel">
@@ -159,60 +171,82 @@
                 
         </section>
 
-        <!--WIDGET MIDDLE START-->
+        <!--FLUXO ELABORAÇÃO START-->
+        <div class="content-fluxo-elaboracao">
+            <div class="passo um">
+                <div class="titulo-passo">
+                    <h1>PASSO 1</h1>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+
+                <div class="bolinhas">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+                <ul class="content-passo">
+                    <li>
+                        <h1>Consulta Viabilidade</h1>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <ul class="text-information">
+                            <li>
+                                <p>
+                                    What is Lorem Ipsum?
+                                    Lorem Ipsum is simply dummy text of the printing 
+                                    and typesetting industry. Lorem Ipsum has been the 
+                                    industry's standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a galley of type and 
+                                    scrambled it to make a
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>   
+            </div> 
+
+            <div class="passo dois">
+                <div class="titulo-passo">
+                    <h1>PASSO 2</h1>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+
+                <div class="bolinhas">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+                <ul class="content-passo">
+                    <li>
+                        <h1>Documento básico de Entrada (DBE)</h1>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <ul class="text-information">
+                            <li>
+                                <p>
+                                    What is Lorem Ipsum?
+                                    Lorem Ipsum is simply dummy text of the printing 
+                                    and typesetting industry. Lorem Ipsum has been the 
+                                    industry's standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a galley of type and 
+                                    scrambled it to make a
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+               
+                
+            </div> 
+        </div>
+        <!--FLUXO ELABORAÇÃO END-->
+
+        <!--MIDDLE START alterar somente para "middle"-->
         <section class="widget-middle">
 
-            <!--widget-grid start-->
-            <div class="widget-grid">
-                <div class="widget paginas">
-                    <div class="titulo"><h1>Página</h1></div>
-                    <div class="widget-only">
-                        <h1>Manuais</h1>
-                        <img src="./img/widgets/manuais.png">
-                    </div>
-
-                    <div class="widget-only"">
-                        <h1>Certidões 100% Digitais</h1>
-                        <img src="./img/widgets/certidoes.png">
-                    </div>
-
-                    <div class="widget-only"">
-                        <h1>Comitê REDESIM-AM</h1>
-                        <img src="./img/widgets/redesim.png">
-                    </div>
-                </div>
-
-                <div class="widget pdfs">
-                    <div class="titulo"><h1>PDFs</h1></div>
-                    <div class="widget-only">
-                        <h1>Registro Automático</h1>
-                        <img src="./img/widgets/registro-automatico.png">
-                    </div>
-
-                    <div class="widget-only">
-                        <h1>Lincenciamento</h1>
-                        <img src="./img/widgets/licenciamento.png">
-                    </div>
-
-                    <div class="widget-only">
-                        <h1>Procedimento</h1>
-                        <img src="./img/widgets/procedimentos.png">
-                    </div>
-                </div>
-
-                <div class="widget tutoriais">
-                    <div class="titulo">
-                        <h1>Tutoriais</h1>
-                        <h2>Implantação REDESIM</h23>
-                    </div>
-                    <div class="widget-only">
-                        <img src="./img/widgets/implantacao.png">
-                    </div>
-                </div>         
+            <!--start Content Posts-->
+            <div class="content-post">
             </div>
-            <!--widget-grid end-->  
+            <!--end Content Posts->  
 
-            <!--widget PARCEIROS START-->
+            <!--start Parceiros-->
             <div class="widget-column-right">
                 <div class="favoritos">
                     <h1>Favoritos</h1>
@@ -254,206 +288,10 @@
                     </div>
                 </div>
             </div>
-            <!--widget PARCEIROS END-->
+            <!--end Parceiro-->
         </section>
-            <!--WIDGET MIDDLE END-->
-
-
-
-            <!--FLUXO ELABORAÇÃO START-->
-            <div class="content-fluxo-elaboracao">
-                <h1>Fluxo de Elaboração</h1>
-                <h2>Aponte o cursor sobre a etapa para ver informações detalhadas</h2>
-                
-                <div class="box-inside-fluxo">
-                    <!--PASSO 1 START-->
-                    <div class="fluxo-box passo1">
-                        <div class="fluxo-titulo">
-                            <h1>1° Passo</h1>
-                        </div>
-                        <div class="fluxo-tres-pontos">
-                            <div class="box-bolinhas">
-                                <div class="bolinha"></div>
-                                <div class="bolinha"></div>
-                                <div class="bolinha"></div>
-                            </div>
-                        </div>
-                        <div class="fluxo-etapa">
-                            <div class="box-etapa">
-                                <h1>Consulta Viabilidade</h1>
-                                <div class="box-lupa-etapa">
-                                    <div class="lupa">
-                                        <img src="./img/icons/lupa.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="informacoes-text">
-                                    <h3>Realize a Consulta de Viabilidade Informando: </h3>
-                                    <p>a) endereço do empreendimento;</p>
-                                    <p>b) dados do empreendimento (natureza jurídica, objeto social, atividade econômica)</p>
-                                    <p>c) nome empresarial e dados dos sócios.</p>
-                                </div>
-                            </div>
-                        </div>   
-                    </div>
-                    <!--PASSO 1 END-->
-
-                    <div class="seta">
-                        <img src="./img/icons/seta-direita.png">
-                    </div>
-
-                    <!--PASSO 2 START-->
-                    <div class="fluxo-box passo2">
-                        <div class="fluxo-titulo">
-                            <h1>2° Passo</h1>
-                        </div>
-                        <div class="fluxo-tres-pontos">
-                            <div class="box-bolinhas">
-                                <div class="bolinha"></div>
-                                <div class="bolinha"></div>
-                                <div class="bolinha"></div>
-                            </div>
-                        </div>
-                        <div class="fluxo-etapa">
-                            <div class="box-etapa">
-                                <h1>Documento básico de entrada (DBE)</h1>
-                                <div class="box-lupa-etapa">
-                                    <div class="lupa">
-                                        <img src="./img/icons/lupa.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="informacoes-text">
-                                    <p>
-                                        Após a aprovação da Consulta de Viabilidade, o DBE deverá ser preenchido no site da RFB, informando o nº da sua Consulta de Viabilidade deferida e válida. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>   
-                    </div>
-                    <!--PASSO 2 END-->
-
-                    <div class="seta">
-                        <img src="./img/icons/seta-direita.png">
-                    </div>
-
-                    <!--PASSO 3 START-->
-                    <div class="fluxo-box passo3">
-                        <div class="fluxo-titulo">
-                            <h1>3° Passo</h1>
-                        </div>
-                        <div class="fluxo-tres-pontos">
-                            <div class="box-bolinhas">
-                                <div class="bolinha"></div>
-                                <div class="bolinha"></div>
-                                <div class="bolinha"></div>
-                            </div>
-                        </div>
-                        <div class="fluxo-etapa">
-                            <div class="box-etapa">
-                                <h1>Integrador (FCN/RE)</h1>
-                                <div class="box-lupa-etapa">
-                                    <div class="lupa">
-                                        <img src="./img/icons/lupa.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="informacoes-text">
-                                    <h3>
-                                        Após retornar ao Portal de Serviços, realize o preenchimento da Ficha de Cadastro Nacional/Requerimento de Empresário (FCN/RE) no Sistema Integrador, informando:
-                                    </h3>
-                                    <p> 
-                                        a) natureza jurídica e ato a ser arquivado;
-                                    </p>
-                                    <p>
-                                        b) número do protocolo da Consulta de Viabilidade e/ou DBE (quando obrigatório);  
-                                    </p>
-                                    <p>
-                                        c) dados complementares. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>   
-                    </div>
-                    <!--PASSO 3 END-->
-
-                    <div class="seta">
-                        <img src="./img/icons/seta-direita.png">
-                    </div>
-
-                   <!--PASSO 4 START-->
-                   <div class="fluxo-box passo4">
-                    <div class="fluxo-titulo">
-                        <h1>4° Passo</h1>
-                    </div>
-                    <div class="fluxo-tres-pontos">
-                        <div class="box-bolinhas">
-                            <div class="bolinha"></div>
-                            <div class="bolinha"></div>
-                            <div class="bolinha"></div>
-                        </div>
-                    </div>
-                    <div class="fluxo-etapa">
-                        <div class="box-etapa">
-                            <h1>Documentação nos Orgãos de Registro</h1>
-                            <div class="box-lupa-etapa">
-                                <div class="lupa">
-                                    <img src="./img/icons/lupa.png" alt="">
-                                </div>
-                            </div>
-
-                            <div class="informacoes-text">
-                                <p>
-                                    A documentação a ser entregue nesta etapa vária de acordo com o órgão de registro, que pode ser Junta Comercial, Cartório, OAB ou Ato Legal. 
-                                </p>
-                                <br>
-                                <p>
-                                    IMPORTANTE: procure informações no site do órgão de registro de acordo com sua natureza jurídica.
-                                </p>
-                            </div>
-                        </div>
-                    </div>   
-                    </div>
-                    <!--PASSO 4 END-->
-
-                    <div class="seta">
-                        <img src="./img/icons/seta-direita.png">
-                    </div>
-
-                    <!--PASSO 5 START-->
-                    <div class="fluxo-box passo5">
-                        <div class="fluxo-titulo">
-                            <h1>5° Passo</h1>
-                        </div>
-                        <div class="fluxo-tres-pontos">
-                            <div class="box-bolinhas">
-                                <div class="bolinha"></div>
-                                <div class="bolinha"></div>
-                                <div class="bolinha"></div>
-                            </div>
-                        </div>
-                        <div class="fluxo-etapa">
-                            <div class="box-etapa">
-                                <h1>licenciamento</h1>
-                                <div class="box-lupa-etapa">
-                                    <div class="lupa">
-                                        <img src="./img/icons/lupa.png" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="informacoes-text">
-                                   <p>
-                                    Após a Constituição da empresa, acesse o módulo de Licenciamento para obter as devidas licenças dos órgãos integrantes da REDESIM e/ou iniciar o processo de licenciamento para a empresa. 
-                                    O Licenciamento pode ser utilizado por MEI e empresas já constituídas anteriormente e que, ainda, não tenham se licenciado. OBS: para alguns casos o sistema solicitará a realização de uma Viabilidade de Legado, pois somente através delá será possível iniciar o licenciamento para algumas empresas. 
-                                   </p>
-                                </div>
-                            </div>
-                        </div>   
-                    </div>
-                    <!--PASSO 5 END-->
-                </div>
-            </div>
-            <!--FLUXO ELABORAÇÃO END-->
+            <!--MIDDLE END-->
+   
 
             <!--ABERTURA DE EMPRESA TUTORIAL START-->
             <div class="content-empresa">
