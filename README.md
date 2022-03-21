@@ -20,4 +20,8 @@ Requisições 2 reuniao - Alteracao na funcionanlidades do site da JUCEA
 [] - criar um botão para ouvidoria, tirar do menu
 [] - fazer o carousel funcionar com autoplay
 [] - transformar o "parceiros" em um carousel, para economizar espaço
-s
+
+Requisições 3 reunicao - adicionar funcoes e layout
+obs: 
+unico padrao de caixas para fluxo, utilizar img 1, utilizar popups se precisar de mais informacao, mostrando um novo fluxo no popup.
+
