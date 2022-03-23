@@ -25,3 +25,4 @@ Requisições 3 reunicao - adicionar funcoes e layout
 obs: 
 unico padrao de caixas para fluxo, utilizar img 1, utilizar popups se precisar de mais informacao, mostrando um novo fluxo no popup.
 
+formalizar as requisicoes atuais da reuniao 3
