@@ -43,7 +43,7 @@ Requisições Reunião 3:
 Layout:
 
 [x][] - Adicionar um carousel com o nome "Destaques" destacando informações e campanhas como o Cadastro
-o "Cadastro Lega"  e "Pix"
+o "Cadastro Lega"  e "Pix" (em andamento)
 
 [x][] - mudar background-color do body para branco #fff
 
