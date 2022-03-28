@@ -1,24 +1,37 @@
 Requisicoes 1 reunicao alteracao site:
 
 [ ] - Atualizar conteudo (Rede sim) 
+
 [ ] - Atualizar conteudo da (Implatacao Rede Sim)
 
 [ ] - Colocar Cartilha Digital No site "que cartilha e essa?"
+
 [] - sessao "tutoriais" juntando os botoes em 1 so
 
 [ ] - Atualizar conteudo pagina > manuais
+
 [ ] - Atualizar conteudo PDF > Registro
 
 Requisições 2 reuniao - Alteracao na funcionanlidades do site da JUCEA 
+
 [x] - Colocar as setas novamente nos menus com submenu
+
 [x] - mudar fluxo de eleboracao, movar para cima e mudar um pouco o layout
+
 [x] - alterar o nome Resoluções JUCEA para Resoluções da JUCEA em favoritos
+
 [] - add tres botoes principais, manauis, servicos Digitais e Servicos JUCEA, para encaixar as novas informações
+
 [] - criar tres widget para Empresa, Abertura, alteracao e extinção
+
 [] - add no menu INSTITUCIONAL mais um sub menu com o nome LESGILACAO
+
 [] - criar a paginas de LESGILACAO, so olhar o modelo no justinmind
+
 [] - criar um botão para ouvidoria, tirar do menu
+
 [] - fazer o carousel funcionar com autoplay
+
 [] - transformar o "parceiros" em um carousel, para economizar espaço
 
 Requisições 3 reunicao - adicionar funcoes e layout
@@ -28,22 +41,35 @@ unico padrao de caixas para fluxo, utilizar img 1, utilizar popups se precisar d
 Requisições Reunião 3:
 
 Layout:
+
 [x][] - Adicionar um carousel com o nome "Destaques" destacando informações e campanhas como o Cadastro
 o "Cadastro Lega"  e "Pix"
+
 [x][] - mudar background-color do body para branco #fff
+
 [x][] - Empresa (Abertura, Alteracao, Extinção) -> mudar o tamanho dos quadros e mudar a cor para verde #135763;
+
 [x][] - lesgilação -> Adicionar em favoritos em ultimo e adicionar como sub menu de INSTITUCIONAL
+
 [x][] - Nos botões da página principal -> alterar ordem para:
 1 - Servicoes JUCEA
 2 - RedeSIm
 3 - Manuais
+
 [x][] - Adicionar um mapa do Amazonas com links dos polos para os municipios, levando para as páginas dos municipios com informações de fotos, status de trabalho e etc.
+
 [x][] - criar uma pagina para o municipios
+
 [x][] - adicionar um carousel em baixo do mapa com noticias do interior
+
 [x][] - Alterar o layout fluxo tutoriais (criar dois estilos para a pagina fluxo tutoriais)
 
 Conteudo:
+
 [] - Adicionar os fluxogramas de cada tema (Abertura, Altercação, Extinção)
+
 [] - Verificar os Conteudo dos botões do meio (Serviçõs JUCEA, RedeSim e Manuais) - CAIO E EDNA
+
 [] - verificar todos os links do menu, listar os descessarios - CAIO E EDNA
+
 [] - Tabela de preços -> incluir nova tabela - CAIO E EDNA
