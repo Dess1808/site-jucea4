@@ -741,7 +741,70 @@ li:hover .text-information li{
 }
 
 /*CSS para DESTAQUES*/
+.container-destaques{
+    margin: 0 auto;
+    width: 1264px;
+    height: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    position: relative;
+    overflow: hidden;
+}
 
+.container-destaques .titulo{
+    text-align: center;
+    font-size: 230%;
+    margin-bottom: 25px;
+}
+
+.slides-destaques{
+    display: flex;
+    height: 100%;
+}
+
+.slides-destaques img{
+    width: 100%;
+    height: 100%;
+}
+
+.slide-destaques{
+    min-width: 100%;
+}
+
+.slides-controls-destaques{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-5px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#prev-button,
+#next-button{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 50px;
+    border: none;
+    padding: 10px;
+    color: #000;
+}
+
+#prev-button:focus,
+#next-button:focus{
+    outline: none;
+}
+
+.container-destaques .barras{
+    width: 100%;
+    height: 13px;
+    background-color: #DCDCDC;
+    border-radius: 5px 5px 0 0;
+}
 
 /*CSS REDE SOCIAIS*/
 .content-social-media{
