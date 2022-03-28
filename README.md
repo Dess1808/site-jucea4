@@ -73,3 +73,12 @@ Conteudo:
 [] - verificar todos os links do menu, listar os descessarios - CAIO E EDNA
 
 [] - Tabela de preços -> incluir nova tabela - CAIO E EDNA
+
+
+Requisições Reunião 4:
+[] - Pagina municipio -> conteudo em cima, galeria em baixo
+[] - mapa amazonas -> adicionar em cima, "conheca o interior"
+obs: Definir conteudos da pagina municipios (mais informacoes) -> mais detalhado
+[] - Verificar resolucoes (rafela)
+[x] - Remover o noticias interior
+obs: Comite estadual de redesim - am
