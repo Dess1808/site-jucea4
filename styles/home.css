@@ -741,14 +741,18 @@ li:hover .text-information li{
 }
 
 /*CSS para DESTAQUES*/
-.container-destaques{
-    margin: 0 auto;
-    width: 1264px;
+.content-destaques{
+    width: 1440px;
     height: 230px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 110px;
-    margin-bottom: 110px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-destaques{
+    width: 1042px;
+    height: 230px;
     position: relative;
     overflow: hidden;
 }
@@ -777,7 +781,7 @@ li:hover .text-information li{
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-5px);
+    transform: translateY(-36px);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -799,11 +803,10 @@ li:hover .text-information li{
     outline: none;
 }
 
-.container-destaques .barras{
-    width: 100%;
-    height: 13px;
-    background-color: #DCDCDC;
-    border-radius: 5px 5px 0 0;
+.content-destaques .barra{
+    border-top: 10px solid #dcdcdc;
+    border-bottom: 8px solid #dcdcdc;
+    border-radius: 5px;
 }
 
 /*CSS REDE SOCIAIS*/
