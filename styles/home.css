@@ -815,6 +815,10 @@ li:hover .text-information li{
     margin: 0 auto;
 
     background-color: darkgrey;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -873,6 +877,14 @@ li:hover .text-information li{
     outline: none;
 }
 
+
+.favoritos{
+    width: 270px;
+    height: 100%;
+
+    background-color: #135763;
+    border-radius: 10px;
+}
 
 /*CSS REDE SOCIAIS*/
 .content-social-media{
