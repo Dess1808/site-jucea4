@@ -85,3 +85,15 @@ obs: Comite estadual de redesim - am
 
 Detalhes - 02/04/2022
 Verificar todos os 3 carouseis (noticias, destaques, parceiros)
+
+
+
+requisitos urgentes:
+
+[x] - fazer um exemplo de uma pagina comum
+
+[] - fazer a pagina de passo a passo, pelomenos a de abertura
+
+[] - uma pagina de municipio
+
+[] - fazer a pagina de lesgislação
