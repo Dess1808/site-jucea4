@@ -1,0 +1,141 @@
+.content-mapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 83px;
+}
+
+.titulo-mapa{
+    position: absolute;
+    transform: translateY(41px);
+}
+
+.mapa-amazonas{
+    width: 900px;
+}
+
+/* CSS DO SVG */
+.st0{
+    fill:green;
+    stroke:#000000;
+    stroke-miterlimit:10;
+    box-shadow: 10px 10px 20px 25px;
+}
+.st1{clip-path:url(#SVGID_2_);}
+.st2{opacity:0.5;fill:none;stroke:#000000;stroke-miterlimit:10;}
+.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+.st4{opacity:0.5;}
+.st5{opacity:0.5;clip-path:url(#SVGID_2_);fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+.st6{fill:#FFFFFF;}
+
+
+/* css para as boxs */
+.content-polo{
+    position: absolute;
+    transform: translate(191px, 420px);
+}
+
+.box-polo li i{
+    font-size: 363%;
+    color: red;
+    cursor: pointer;
+}
+
+.box-polo li:hover .lista-polo{
+    opacity: 1;
+    visibility: visible;
+}
+
+.box-polo,
+.lista-polo{
+    list-style: none;
+}
+
+/* .lista-polo{
+    position: absolute;
+    transition: 0.1s ease-in;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(58px, -122px);
+}
+
+.lista-polo li{
+    width: 196px;
+    height: 35px;
+    background-color: #dcdcdc;  
+    cursor: pointer;
+
+    padding: 5px 3px;
+}
+
+.lista-polo h1{
+    font-size: 145%;
+    width: 196px;
+    background-color: #3679DD;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+
+    padding: 5px 3px;
+
+}
+
+
+
+.lista-polo li a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+    margin-top: 16px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.lista-polo li:hover{
+    background-color: darkgray;
+}
+
+.lista-polo li:last-child{
+    border-radius: 0 0 10px 10px;
+} */
+
+.lista-polo{
+    position: absolute;
+    transition: 0.1s ease-in;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(58px, -122px);
+}
+
+.lista-polo h1{
+    font-size: 145%;
+    width: 196px;
+    background-color: #3679DD;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+
+    padding: 5px 3px;
+}
+
+.lista-polo li{
+    width: 196px;
+    height: 35px;
+    background-color: #dcdcdc;  
+    cursor: pointer;
+
+    padding: 5px 3px;
+    color: #000;
+}
+
+.border-radius-bottom{
+    border-radius: 0 0 10px 10px;
+}
+
+.lista-polo li:hover{
+    background-color: darkgray;
+}
