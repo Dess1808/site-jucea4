@@ -42,27 +42,27 @@ Requisições Reunião 3:
 
 Layout:
 
-[x][] - Adicionar um carousel com o nome "Destaques" destacando informações e campanhas como o Cadastro
+[x][x] - Adicionar um carousel com o nome "Destaques" destacando informações e campanhas como o Cadastro
 o "Cadastro Lega"  e "Pix" (em andamento)
 
-[x][] - mudar background-color do body para branco #fff
+[x][x] - mudar background-color do body para branco #fff
 
-[x][] - Empresa (Abertura, Alteracao, Extinção) -> mudar o tamanho dos quadros e mudar a cor para verde #135763;
+[x][x] - Empresa (Abertura, Alteracao, Extinção) -> mudar o tamanho dos quadros e mudar a cor para verde #135763;
 
-[x][] - lesgilação -> Adicionar em favoritos em ultimo e adicionar como sub menu de INSTITUCIONAL
+[x][x] - lesgilação -> Adicionar em favoritos em ultimo e adicionar como sub menu de INSTITUCIONAL
 
-[x][] - Nos botões da página principal -> alterar ordem para:
+[x][x] - Nos botões da página principal -> alterar ordem para:
 1 - Servicoes JUCEA
 2 - RedeSIm
 3 - Manuais
 
-[x][] - Adicionar um mapa do Amazonas com links dos polos para os municipios, levando para as páginas dos municipios com informações de fotos, status de trabalho e etc.
+[x][x] - Adicionar um mapa do Amazonas com links dos polos para os municipios, levando para as páginas dos municipios com informações de fotos, status de trabalho e etc.
 
-[x][] - criar uma pagina para o municipios
+[x][x] - criar uma pagina para o municipios
 
-[x][] - adicionar um carousel em baixo do mapa com noticias do interior
+[x][] - adicionar um carousel em baixo do mapa com noticias do interior (deletado)
 
-[x][] - Alterar o layout fluxo tutoriais (criar dois estilos para a pagina fluxo tutoriais)
+[x][x] - Alterar o layout fluxo tutoriais (criar dois estilos para a pagina fluxo tutoriais)
 
 Conteudo:
 
@@ -77,7 +77,7 @@ Conteudo:
 
 Requisições Reunião 4:
 [] - Pagina municipio -> conteudo em cima, galeria em baixo
-[] - mapa amazonas -> adicionar em cima, "conheca o interior"
+[x] - mapa amazonas -> adicionar em cima, "conheca o interior"
 obs: Definir conteudos da pagina municipios (mais informacoes) -> mais detalhado
 [] - Verificar resolucoes (rafela)
 [x] - Remover o noticias interior
