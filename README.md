@@ -82,3 +82,6 @@ obs: Definir conteudos da pagina municipios (mais informacoes) -> mais detalhado
 [] - Verificar resolucoes (rafela)
 [x] - Remover o noticias interior
 obs: Comite estadual de redesim - am
+
+Detalhes - 02/04/2022
+Verificar todos os 3 carouseis (noticias, destaques, parceiros)

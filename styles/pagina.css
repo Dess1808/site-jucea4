@@ -1,0 +1,50 @@
+.content-page-text{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.titulo{
+    width: 100%;
+    border-bottom: 2px solid rgba(0,0,0,.3);
+}
+
+.text{
+    padding: 10px;
+}
+
+.text h2{
+    font-size: 115%;
+    margin-bottom: 10px;
+}
+
+.text p{
+    margin-bottom: 25px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.social-media a{
+    margin-left: 25px;
+    display: flex;
+}
+
+.social-media h3{
+    margin-left: 10px;
+    color: #000;
+}
+
+.social-media i{
+    font-size: 130%;
+}
+
+.social-media .fa-facebook-square{
+    color: #4267B2;
+}
+
+.social-media .fa-twitter{
+    color: #1DA1F2;
+}
