@@ -810,31 +810,78 @@ li:hover .text-information li{
 }
 
 /* CSS CONTENT INFOMACOES */
+:root{
+    --width-padrao: 535px;
+    --box-shadow-padrao: 0 2px 5px rgba(0,0,0,.3);
+    --border-padrao: 2px solid rgba(0,0,0,.3);
+}
+
 .content-informacoes{
-    width: 1440px;
+    width: 1039px;
+    height: 503px;
     margin: 0 auto;
 
-    background-color: darkgrey;
-
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.content-informacoes h1{
+    font-size: 130%;
+    margin-bottom: 5px;
 }
 
 
 .container-favoritos{
-    width: 500px;
+    width: 378px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* css favoritos */
+.favoritos{
+    width: 270px;
+    height: 285px;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: var(--border-padrao);
+    box-shadow: var(--box-shadow-padrao);
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.favoritos li{
+    padding-bottom: 7px;
+}
+
+.favoritos li:last-child{
+    padding-bottom: 0;
+}
+
+.favoritos li a {
+    color: #000;
+    padding-left: 20px;
+    transition: 0.1s ease-in;
+}
+
+.favoritos li a:hover{
+    color: rgba(0,0,0,.6);
 }
 
 /* css parceiros */
 .container-parceiros{
-    margin: 0 auto;
     width: 309px;
     height: 137px;
     position: relative;
     overflow: hidden;
 
     border-radius: 10px;
+    border: var(--border-padrao);
 }
 
 .slides-parceiros{
@@ -878,13 +925,51 @@ li:hover .text-information li{
 }
 
 
-.favoritos{
-    width: 270px;
+/* css links */
+.container-links{
+    width: var(--width-padrao);
     height: 100%;
 
-    background-color: #135763;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.box-links{
+    display: flex;
+    width: var(--width-padrao);
+    height: 150px;
+}
+
+.box-links img{
+    width: 150px;
+    height: 150px;
+
+    border-radius: 10px 0 0 10px;
+    box-shadow: var(--box-shadow-padrao);
+}
+
+.box-text-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px 7px 7px 18px;
+
+    background-color: #fff;
+    border: var(--border-padrao);
+    box-shadow: var(--box-shadow-padrao);
+    border-left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.box-text-links h1{
+    font-size: 174%;
+}
+
+.box-text-links a{
+    text-align: right;
+}
+
 
 /*CSS REDE SOCIAIS*/
 .content-social-media{
