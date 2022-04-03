@@ -21,30 +21,3 @@
     margin-bottom: 25px;
 }
 
-.social-media{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-.social-media a{
-    margin-left: 25px;
-    display: flex;
-}
-
-.social-media h3{
-    margin-left: 10px;
-    color: #000;
-}
-
-.social-media i{
-    font-size: 130%;
-}
-
-.social-media .fa-facebook-square{
-    color: #4267B2;
-}
-
-.social-media .fa-twitter{
-    color: #1DA1F2;
-}

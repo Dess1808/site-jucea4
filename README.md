@@ -92,8 +92,9 @@ requisitos urgentes:
 
 [x] - fazer um exemplo de uma pagina comum
 
-[] - fazer a pagina de passo a passo, pelomenos a de abertura
+[x] - fazer a pagina de lesgislação
+
+[] - fazer a pagina de passo a passo, pelo menos a de abertura
 
 [] - uma pagina de municipio
 
-[] - fazer a pagina de lesgislação
