@@ -4,7 +4,7 @@ const prevButtonParceiros = document.getElementById('prev-button-parceiros');
 const nextButtonParceiros = document.getElementById('next-button-parceiros');
 const intervalParceiros = 2000;
 
-const slidesParceiros = document.querySelectorAll('.slide-parceiros');
+let slidesParceiros = document.querySelectorAll('.slide-parceiros');
 let indexParceiros = 1;
 let slideIdParceiros;
 
