@@ -1,0 +1,40 @@
+.content-page-text{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.titulo{
+    width: 100%;
+    border-bottom: 2px solid rgba(0,0,0,.3);
+}
+
+.content-box-button{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 20px;
+}
+
+.box-button{
+    width: 178px;
+    height: 77px;
+    background-color: #135763;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.box-button:hover{
+    box-shadow: 0 2px 25px rgba(0,0,0,.3);
+}
+
+.box-button h2{
+    font-size: 120%;
+    color: #fff;
+    text-align: center;
+}
