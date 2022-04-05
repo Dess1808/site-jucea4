@@ -94,7 +94,7 @@ requisitos urgentes:
 
 [x] - fazer a pagina de lesgislação
 
-[] - fazer a pagina de passo a passo, pelo menos a de abertura
+[] - fazer a pagina de passo a passo, pelo menos a de abertura (quase terminado, o esquema principal foi terminado, falta apenas popular)
 
 [] - uma pagina de municipio
 

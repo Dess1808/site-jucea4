@@ -3,6 +3,8 @@
     height: 100vh;
 
     margin: 0 auto;
+
+    padding: 25px;
 }
 
 .container-meio{
@@ -55,14 +57,14 @@
 .content-page-passo{
     position: absolute;
     background-color: rgba(0,0,0,.9);
-    /* background-color: #dcdcdc; */
-    width: 99.1vw;
-    height: 100%;
+    width: 100%;
+    /* height: 100%; verificar uma forma de manter 100% */
+    z-index: 1;
 
-    /* opacity: 0;
-    visibility: hidden; */
-
-    display: normal;
+    padding-top: 40px;
+    
+    opacity: 0;
+    visibility: hidden;
 
     transition: 0.1s ease-in;
 }
@@ -86,15 +88,14 @@
 }
 
 /* container passo */
-.container-passo{
+/* .container-passo{
     position: relative;
-}
+} */
 
 .container-box-passo{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: block;
 
-    width: 1880px;
+    width: 1101px;
     margin: 0 auto;
 }
 
@@ -157,27 +158,56 @@
     margin-left: 40px;
 }
 
-/* CONTROLE box passo */
-.box-passo-portal h1{
-    background-color: #FFD700;
+/* CONTROLE BOX PASSO A PASSO */
+/* PORTAL */
+.box-passo-portal{
+    justify-content: flex-start;
 }
 
 .box-passo-portal .icon-passo i{
     color: 	#FFD700;
 }
 
-.box-passo-viabilidade{
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-    grid-row-start: 2;
-    grid-row-end: 3;
+.box-passo-portal .little-box h1{
+    background-color:#FFD700;
 }
 
-.box-passo-viabilidade h1{
-    background-color: #7B68EE;
+/* VIABILIDADE */
+.box-passo-viabilidade{
+    justify-content: flex-end;
 }
 
 .box-passo-viabilidade .icon-passo i{
-    color: #7B68EE;
+    color: 	#9400D3;
+}
+
+.box-passo-viabilidade .little-box h1{
+    background-color:#9400D3;
+}
+
+
+/* GERAR DBE */
+.box-passo-dbe{
+    justify-content: flex-start;
+}
+
+.box-passo-dbe .icon-passo i{
+    color: 	#DC143C;
+}
+
+.box-passo-dbe .little-box h1{
+    background-color:#DC143C;
+}
+
+/* ACESSAR INTEGRADO */
+.box-passo-acessar-integrador{
+    justify-content: flex-end;
+}
+
+.box-passo-acessar-integrador .icon-passo i{
+    color: 	#00CED1;
+}
+
+.box-passo-acessar-integrador .little-box h1{
+    background-color:#00CED1;
 }
