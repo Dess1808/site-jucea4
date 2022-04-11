@@ -30,11 +30,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
+    
     transition: 0.1s ease-in;
     opacity: 0;
     visibility: hidden;
+}
+
+.content-text-number{
+    width: 1000px;
+}
+
+.text-number{
+    display: flex;
+    width: 50px;
+    overflow: hidden;
+}
+
+.text-number p{
+    color: #fff;
+    font-size: 150%;
+    width: 50px;
 }
 
 .fechar-gallery{
@@ -50,20 +65,22 @@
 }
 
 .content-gallery-hidden{
-    width: 1240px;
+    width: 1000px;
     height: 550px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     border-radius: 10px;
+
+    overflow: hidden;
 }
 
 .gallery-slides-hidden{
     width: 1000px;
     height: 550px;
     display: flex;
-    overflow: hidden;
 
     border-radius: 10px;
 }
@@ -73,9 +90,9 @@
     height: 550px;
     object-fit: cover;
 
-    border-radius: 10px;
+    /* border-radius: 10px; */
 
-    transition: 0.5s ease;
+    /* transition: 0.5s ease; */
 }
 
 .button-controls-gallery-hidden{
