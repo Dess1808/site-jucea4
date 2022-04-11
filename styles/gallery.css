@@ -1,20 +1,19 @@
 .gallery-content{
-    width: 1000px;
-    height: 500px;
+    width: 500px;
+    height: 270px;
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+    margin: auto;
 
-.gallery-slide img{
-    width: 305px;
-    height: 210px;
-    object-fit: cover;
-
-    border-radius: 10px;
+    padding-bottom: 70px;
     cursor: pointer;
-    /* object-position: bottom; */
 }
+
+.gallery-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 
 /* hidden gallery */
